@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maya Attorneys</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Maya Attorneys</h1>
+            <p>Leading Legal Expertise in East London, Eastern Cape</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#location">Our Location</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Maya Attorneys</h2>
+            <p>Maya Attorneys is your trusted legal partner, providing expert legal services in a wide range of areas. Whether you need help with road accident claims, estate administration, or criminal law, we are here to support you with dedication and professionalism.</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="about" class="section-light">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="director-info">
+                <img src="https://images.pexels.com/photos/7841842/pexels-photo-7841842.jpeg" alt="Xolisa Maya" class="director-img">
+                <p>Maya Attorneys, led by Xolisa Maya (LLB, Certificate in Deceased Estate Practice), is committed to providing high-quality legal services tailored to meet the needs of our clients. With a focus on delivering justice and protecting the rights of individuals and businesses, we strive for excellence in every case we handle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <p class="instruction-text">Click on any of the services below to learn more about what we offer:</p>
+        <ul class="service-list">
+            <li onclick="toggleDetails('raf-claims')">
+                <span class="expand-icon">+</span> Road Accident Fund Claims
+            </li>
+            <div id="raf-claims" class="service-details">
+                <p>We assist clients in claiming compensation from the Road Accident Fund for injuries or loss of income resulting from motor vehicle accidents.</p>
+            </div>
+
+            <li onclick="toggleDetails('estate-admin')">
+                <span class="expand-icon">+</span> Administrators of Estate
+            </li>
+            <div id="estate-admin" class="service-details">
+                <p>We provide comprehensive estate administration services, including handling deceased estates and drafting wills to ensure your assets are managed according to your wishes.</p>
+            </div>
+
+            <li onclick="toggleDetails('divorce')">
+                <span class="expand-icon">+</span> Divorce
+            </li>
+            <div id="divorce" class="service-details">
+                <p>Our firm offers legal advice and representation in divorce proceedings, ensuring that your rights are protected and that the process is as smooth as possible.</p>
+            </div>
+
+            <li onclick="toggleDetails('criminal-law')">
+                <span class="expand-icon">+</span> Criminal Law
+            </li>
+            <div id="criminal-law" class="service-details">
+                <p>We provide robust defense services for individuals facing criminal charges, working diligently to protect your rights and achieve the best possible outcome.</p>
+            </div>
+
+            <li onclick="toggleDetails('civil-contracts')">
+                <span class="expand-icon">+</span> Civil Work Contracts
+            </li>
+            <div id="civil-contracts" class="service-details">
+                <p>Our legal team assists in drafting, reviewing, and negotiating civil contracts to ensure your interests are safeguarded in any agreement you enter.</p>
+            </div>
+
+            <li onclick="toggleDetails('eviction')">
+                <span class="expand-icon">+</span> Eviction
+            </li>
+            <div id="eviction" class="service-details">
+                <p>We handle eviction cases with professionalism, ensuring that both landlords' and tenants' rights are respected throughout the process.</p>
+            </div>
+
+            <li onclick="toggleDetails('medical-negligence')">
+                <span class="expand-icon">+</span> Medical Negligence
+            </li>
+            <div id="medical-negligence" class="service-details">
+                <p>We represent clients in medical negligence cases, fighting for the compensation you deserve for any harm caused by medical professionals' errors.</p>
+            </div>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any legal questions or need representation, don't hesitate to reach out to us. We're here to help.</p>
+            <p><strong>Phone:</strong> 065253237</p>
+            <p><strong>Email:</strong> <a href="mailto:mayaatt@gmail.com">mayaatt@gmail.com</a></p>
+            <p><strong>Location:</strong> East London, Eastern Cape</p>
+        </div>
+    </section>
+    <section id="location" class="section-light">
+        <div class="container">
+            <h2>Our Location</h2>
+            <div class="location-container">
+                <img src="https://images.pexels.com/photos/3751006/pexels-photo-3751006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Our Location" class="location-img">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    <div class="container footer-content">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Maya Attorneys is a law firm based in East London, Eastern Cape, offering expert legal services in road accident fund claims, estate administration, divorce, criminal law, civil work contracts, eviction, and medical negligence.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#location">Our Location</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Information</h4>
+            <p>Email: <a href="mailto:mayaatt@gmail.com">mayaatt@gmail.com</a></p>
+            <p>Phone: <a href="tel:+065253237">065253237</a></p>
+            <p>Address: 2nd Floor, Madyaka Building, 9208 NU2, Mdantsane Unit 5, Mdantsane, 5219</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                </li>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
