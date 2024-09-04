@@ -14,19 +14,27 @@ body {
 }
 
 header {
-    background: #000;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #000; /* Keep the background color as needed */
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+.header-content {
+  position: relative;
+  display: inline-block; /* Ensures the content wraps tightly around the image and text */
 }
 
-header p {
-    font-size: 1.2em;
+.header-image {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centers the image */
+}
+
+.header-text {
+  margin: 0;
+  color: #fff; /* Adjust text color as needed */
+  font-size: 24px; /* Adjust font size as needed */
 }
 
 nav {
