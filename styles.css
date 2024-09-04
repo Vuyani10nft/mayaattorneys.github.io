@@ -37,6 +37,7 @@ header {
   font-size: 24px; /* Adjust font size as needed */
 }
 
+
 nav {
     background: #333;
     color: #fff;
@@ -222,6 +223,7 @@ section h2 {
 }
 
 /* Footer Styling */
+/* Footer Styling */
 footer {
     background: #333; /* Dark background for the footer */
     color: #fff; /* Light text color */
@@ -264,7 +266,6 @@ footer {
     color: #ff4081; /* Highlight link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make the link text bold */
-    font-size: 1.1em; /* Slightly larger font size */
 }
 
 .footer-link:hover {
@@ -281,20 +282,23 @@ footer {
     color: #fff; /* Highlight color on hover */
 }
 
-/* Additional styling for name and email */
-.footer-name-email {
-    font-size: 1.2em; /* Larger font size for emphasis */
-    font-weight: bold; /* Make the text bold */
-    color: #ff4081; /* Highlight color */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
 }
 
-.footer-name-email a {
-    color: #ff4081; /* Highlight link color */
-    text-decoration: none; /* Remove underline */
+.footer-section ul li {
+    margin: 10px 0;
 }
 
-.footer-name-email a:hover {
-    text-decoration: underline; /* Underline on hover */
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff; /* Highlight color on hover */
 }
 
 .social-links {
