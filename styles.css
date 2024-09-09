@@ -306,13 +306,42 @@ footer {
     gap: 10px;
 }
 
-.social-links a {
-    color: #ccc;
-    font-size: 1.1em;
-    transition: color 0.3s;
+/* Social media icons styling */
+.social-links {
+    margin-top: 20px;
+    text-align: left; /* Align the links to the left */
 }
 
-.social-links a:hover {
-    color: #fff; /* Highlight color on hover */
+.social-links p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff; /* Professional white text for header */
 }
 
+.social-icon {
+    font-size: 1.8em; /* Make icons slightly larger */
+    margin-right: 15px;
+    color: #6C757D ; /* Neutral grey for default icon color */
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block; /* Keep the icons and text aligned */
+    margin-bottom: 10px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
+
+.social-icon i {
+    margin-right: 10px; /* Add space between icon and text */
+}
+
+.social-icon:hover {
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    color: #fff; /* Highlight icon and text color */
+}
+
+/* Specific hover colors for each icon */
+.whatsapp:hover {
+    color: #128C7E; /* WhatsApp green */
+}
+
+.linkedin:hover {
+    color: #2867B2; /* LinkedIn blue */
+}
