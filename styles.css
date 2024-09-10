@@ -158,7 +158,30 @@ section h2 {
     margin-top: 5px;
     border-left: 4px solid #333; /* Dark vertical border on the left */
 }
+.download-section {
+    text-align: center;
+    margin-top: 20px;
+  }
 
+  .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Adjust color as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .download-button:hover {
+    background-color: #0056b3; /* Adjust color as needed */
+  }
+
+  .download-section p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
 
 /* Location Section Styling */
 #location {
