@@ -20,16 +20,61 @@ header {
 }
 
 .header-content {
-  position: relative;
-  display: inline-block; /* Ensures the content wraps tightly around the image and text */
+    position: relative;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .header-image {
+    width: 150px; /* Adjust this value to fit your needs */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .header-text-container {
+    display: inline-block;
+    background-color: white; /* White background for text */
+    width: 150px; /* Match the logo's width */
+    text-align: center;
+    margin-top: -10px; /* Pull text closer to the logo */
+  }
+  
+  .header-title {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .header-title:first-of-type {
+    font-size: 32px; /* Size for 'MAYA' */
+    margin-top: -10px;
+    margin-bottom: -15px;
+  }
+  
+  .header-title:last-of-type {
+    margin: auto;
+    font-size: 20px; /* Size for 'ATTORNEYS' */
+  }
+  
+  .header-subtitle {
+    margin: 5px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000;
 }
 
-.header-image {
-  width: 150px; /* Adjust size as needed */
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Centers the image */
-}
+  
+  .header-content img, .header-text-container {
+    width: 150px; /* Ensure both the image and text container have the same width */
+    margin: 0 auto;
+  }
+  
+  .header-text-container {
+    padding: 5px 0;
+  }
+  
 
 .header-text {
   margin: 0;
